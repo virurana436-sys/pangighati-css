@@ -198,35 +198,41 @@ background-repeat: repeat-x; background-position: 50%; text-align: center; margi
 
 
 .social-follow {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 10px;
-  font-size: 16px;
-  font-weight: bold;
-  background-color: #f5f5f5;
-  gap: 10px;
+  text-align: center;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
 }
-.social-follow a {
-  width: 34px;
-  height: 34px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+
+.follow-label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+  margin-right: 10px;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  margin: 0 6px;
   border-radius: 50%;
-  background-color: #0d2744;
-  color: white;
-  text-decoration: none;
-  transition: background-color 0.3s;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: transform 0.3s ease;
 }
-.social-follow a:hover {
-  background-color: #ff7300;
+
+.social-icon:hover {
+  transform: scale(1.1);
 }
-.social-follow svg {
-  width: 18px;
-  height: 18px;
-  fill: white;
-}
+
+/* Social Media Icons as Background Images (lightweight SVGs or PNGs preferred) */
+.rss { background-image: url('https://img.icons8.com/ios-filled/50/000000/rss.png'); }
+.telegram { background-image: url('https://img.icons8.com/ios-filled/50/000000/telegram-app.png'); }
+.linkedin { background-image: url('https://img.icons8.com/ios-filled/50/000000/linkedin.png'); }
+.twitter { background-image: url('https://img.icons8.com/ios-filled/50/000000/twitter.png'); }
+.facebook { background-image: url('https://img.icons8.com/ios-filled/50/000000/facebook-new.png'); }
+.youtube { background-image: url('https://img.icons8.com/ios-filled/50/000000/youtube-play.png'); }
+
 
 /* End GeneratePress Site CSS */
