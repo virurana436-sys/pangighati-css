@@ -227,10 +227,45 @@ background-repeat: repeat-x; background-position: 50%; text-align: center; margi
 }
 
 /* Social Media Icons as Background Images (lightweight SVGs or PNGs preferred) */
-.rss { background-image: url('https://img.icons8.com/ios-filled/50/000000/rss.png'); }
-.telegram { background-image: url('https://img.icons8.com/ios-filled/50/000000/telegram-app.png'); }
-.linkedin { background-image: url('https://img.icons8.com/ios-filled/50/000000/linkedin.png'); }
-.twitter { background-image: url('https://img.icons8.com/ios-filled/50/000000/twitter.png'); }
-.facebook { background-image: url('https://img.icons8.com/ios-filled/50/000000/facebook-new.png'); }
-.youtube { background-image: url('https://img.icons8.com/ios-filled/50/000000/youtube-play.png'); }
+.rss {
+  background-image: url('https://img.icons8.com/ios-filled/50/000000/rss.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.telegram {
+  background-image: url('https://img.icons8.com/ios-filled/50/000000/telegram-app.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.linkedin {
+  background-image: url('https://img.icons8.com/ios-filled/50/000000/linkedin.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.twitter {
+  background-image: url('https://img.icons8.com/ios-filled/50/000000/twitter.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.facebook {
+  background-image: url('https://img.icons8.com/ios-filled/50/000000/facebook-new.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.youtube {
+  background-image: url('https://img.icons8.com/ios-filled/50/000000/youtube-play.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 /* End GeneratePress Site CSS */
