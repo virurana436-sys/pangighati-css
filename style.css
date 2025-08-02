@@ -196,4 +196,37 @@ background-repeat: repeat-x; background-position: 50%; text-align: center; margi
 }
 
 
+
+.social-follow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  gap: 10px;
+}
+.social-follow a {
+  width: 34px;
+  height: 34px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #0d2744;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+.social-follow a:hover {
+  background-color: #ff7300;
+}
+.social-follow svg {
+  width: 18px;
+  height: 18px;
+  fill: white;
+}
+
 /* End GeneratePress Site CSS */
