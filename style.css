@@ -194,41 +194,6 @@ background-repeat: repeat-x; background-position: 50%; text-align: center; margi
     .related-post-item img { width: 90%; height: 80px; }
     .related-post-title { font-size: 12px; margin-top: 0; padding: 5px; }
 }
-/* Social Media */
-.social-follow {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 10px;
-  font-size: 16px;
-  font-weight: bold;
-  gap: 10px;
-  color: white; 
-}
-.social-follow span {
-  color: white;
-}
-.social-follow a {
-  width: 34px;
-  height: 34px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  background-color: #0d2744;
-  color: white;
-  text-decoration: none;
-  transition: background-color 0.3s, border 0.3s;
-  border: 1px solid white; 
-}
-.social-follow a:hover {
-  background-color: #ff7300;
-}
-.social-follow svg {
-  width: 18px;
-  height: 18px;
-  fill: white;
-}
+
 
 /* End GeneratePress Site CSS */
